@@ -30,12 +30,12 @@ datasets = [
     (BookCorpusDataset()   , 1.5 ),
 
     # Github
-    (GithubDataset()       , 0.  ),
+    (GithubDataset()       , 1.  ),
 
     # Dialogue
     (UbuntuIRCDataset()    , 2.  ),
     (HackerNewsDataset()   , 2.  ),
-    (EuroParlDataset()     , 0.  ),
+    (EuroParlDataset()     , 2.  ),
     (YTSubtitlesDataset()  , 2.  ),
     (OpensubtitlesDataset(), 1.5 ),
 
